@@ -1,0 +1,46 @@
+
+body {
+     text-align: center;
+     font-size: 2em;
+}
+h1 {
+     font-family: 'Carter One', cursive;
+     font-weight: 300;
+     color: rgb(10, 63, 10);
+     text-shadow: 2px 2px 2px black;
+}
+div {
+     width: 100px;
+     height: 100px;
+     margin: 0px auto;
+     
+     position: relative;
+/*   animation: name duration timing count direction        */
+     animation: changeColor 1s ease-in infinite alternate;
+}
+@keyframes changeColor {
+     from {left: 0px; top: 0px;}
+     to {left: 0px; top: 150px;}
+}
+@-webkit-keyframes changeColor {
+     from {left: 0px; top: 0px;}
+     to {left: 0px; top: 150px;}
+}
+@-moz-keyframes changeColor {
+     from {left: 0px; top: 0px;}
+     to {left: 0px; top: 150px;}
+}
+@-o-keyframes changeColor {
+     from {left: 0px; top: 0px;}
+     to {left: 0px; top: 150px;}
+}
+
+hr {
+     width: 50%;
+     height: 2px;
+     margin-top: 15.4%;
+     background-color: green;
+}
+
+
+
